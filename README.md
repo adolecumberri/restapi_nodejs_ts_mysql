@@ -45,7 +45,7 @@ users, books and categories names are sent by *request.body*.
 all their IDs are sent by *request.params*.
 
 
-* **Common uses**
+### Common uses
 
 - Get All users
 ```
@@ -68,7 +68,7 @@ put\ http://localhost:5000/users/:id_user
 delete\ http://localhost:5000/users/:id_user
 ``` 
 
-* ** Specific end-point from Users** 
+### Specific end-point from Users 
 - Add book to one user
 ```
 post/ http://localhost:5000/users/:id_user/book/:id_book
@@ -82,7 +82,7 @@ delete/ http://localhost:5000/users/:id_user/book/:id_book
 get/ http://localhost:5000/users/:id_user/books
 ```
 
-* ** Specific end-point from Books** 
+### Specific end-point from Books 
 - Add category to one book
 ```
 post/ http://localhost:5000/books/:id_book/category/:id_category
