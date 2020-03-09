@@ -22,7 +22,7 @@ install dependencies and @types.
     "nodemon": "^1.19.4"
   }
 ```
-if you will user nodemon in developement, dont forget 
+if you use nodemon in developement, dont forget 
 ```
 npm install nodemon -dev --save
 ```
@@ -44,7 +44,7 @@ ADVERTISING!
 users, books and categories names are sent by *request.body*.
 all their IDs are sent by *request.params*.
 
-** Comon Example: **
+* ** Comon Example: **
 
 - Get All users
 ```
@@ -67,7 +67,7 @@ put\ http://localhost:5000/users/:id_user
 delete\ http://localhost:5000/users/:id_user
 ``` 
 
-** Specific end-point from Users** 
+* ** Specific end-point from Users** 
 - Add book to one user
 ```
 post/ http://localhost:5000/users/:id_user/book/:id_book
@@ -81,7 +81,7 @@ delete/ http://localhost:5000/users/:id_user/book/:id_book
 get/ http://localhost:5000/users/:id_user/books
 ```
 
-** Specific end-point from Books** 
+* ** Specific end-point from Books** 
 - Add category to one book
 ```
 post/ http://localhost:5000/books/:id_book/category/:id_category
