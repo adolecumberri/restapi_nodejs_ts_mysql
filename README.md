@@ -44,7 +44,8 @@ ADVERTISING!
 users, books and categories names are sent by *request.body*.
 all their IDs are sent by *request.params*.
 
-* ** Comon Example: **
+
+* **Common uses**
 
 - Get All users
 ```
